@@ -1,5 +1,6 @@
 FROM debian:trixie-slim
-LABEL maintainer="EsserGaming"
+LABEL maintainer="Twilight-Hosting"
+LABEL org.opencontainers.image.source=https://github.com/Twilight-Hosting/another-scp-sl-egg
 USER root
 
 # Grab the essentials
@@ -11,6 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     adduser \
     libicu76 \
+    mono-complete \
     ffmpeg && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 

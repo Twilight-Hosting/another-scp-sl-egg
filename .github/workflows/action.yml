@@ -5,7 +5,6 @@ on:
     branches: 
       - master
       - slim
-      - staging
     paths:
       - 'Dockerfile'
       - 'entrypoint.sh'
@@ -36,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/essergaming/docker-scpsl
+          images: ghcr.io/twilight-hosting/another-scp-sl-egg
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v7
