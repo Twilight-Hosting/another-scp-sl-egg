@@ -11,9 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     wget \
     adduser \
-    libicu76 \
-    mono-complete \
-    ffmpeg && \
+    libicu76 && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 # Container setup for Pterodactyl
