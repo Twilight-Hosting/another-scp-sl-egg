@@ -3,6 +3,5 @@
 A modified docker file that includes [ffmpeg](https://ffmpeg.org/).
 
 ## GitHub package branches:
-- master: `ghcr.io/essergaming/docker-scpsl:master` **(Includes ffmpeg)**
-- slim `ghcr.io/essergaming/docker-scpsl:slim` **(Does not include ffmpeg, smaller size)**
-- staging `ghcr.io/essergaming/docker-scpsl:staging` **(Staging branch, experimental)**
+- heavy: `ghcr.io/twiligt-hosting/another-scp-sl-egg:heavy` **(Includes ffmpeg and mono dependencies)**
+- slim `ghcr.io/twiligt-hosting/another-scp-sl-egg:slim` **(Does not include ffmpeg and mono dependencies, smaller size)**
